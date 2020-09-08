@@ -17,7 +17,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutdb", { u
 
 const app = express();
 
-app.use(express.static("public"));
+app.use(express.static("/public"));
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
