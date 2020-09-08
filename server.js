@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose")
 
 const PORT = process.env.PORT || 5000;
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutdb", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
 
 //USE FOR WHEN CONNECTING TO MongoDB Atlas
 // mongoose.connect(
@@ -24,7 +24,7 @@ app.use(express.json());
 
 //NEED TO INCLUDE ROUTES
 require("./controllers/htmlController")(app);
-// require("./controllers/apiController")(app);
+require("./controllers/apiController")(app);
 
 app.listen(PORT, function () {
   console.log("Server listening on: http://localhost:" + PORT);
