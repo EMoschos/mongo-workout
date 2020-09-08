@@ -17,13 +17,14 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutdb", { u
 
 const app = express();
 
-app.use(express.static("/public"));
+app.use(express.static("public"));
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 //NEED TO INCLUDE ROUTES
-require("./controllers")(app);
+require("./controllers/htmlController")(app);
+// require("./controllers/apiController")(app);
 
 app.listen(PORT, function () {
   console.log("Server listening on: http://localhost:" + PORT);
