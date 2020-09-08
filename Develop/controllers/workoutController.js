@@ -1,13 +1,9 @@
-const express = require("express");
+const workouts = require("../models/Workouts.js");
 
-const router = express.Router();
-
-const workouts = require("../models/workouts.js");
-
-router.get("/", function(req, res){
+app.get("/html/", function(req, res){
     // STILL NEED TO DEVELOP INDEX HTML ROUTE
 })
 
-router.post("/api/workout", function(req, res){
+app.post("/api/workout", function(req, res){
     // STILL NEED TO DEVELOP ROUTE
 })
