@@ -2,18 +2,18 @@ const express = require("express");
 const mongoose = require("mongoose")
 
 const PORT = process.env.PORT || 5000;
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
+// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
 
 //USE FOR WHEN CONNECTING TO MongoDB Atlas
-// mongoose.connect(
-//   process.env.MONGODB_URI || 'mongodb://localhost/workoutdb',
-//   {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-//     useCreateIndex: true,
-//     useFindAndModify: false
-//   }
-// );
+mongoose.connect(
+  process.env.MONGODB_URI || 'mongodb://localhost/workout',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
+  }
+);
 
 const app = express();
 
