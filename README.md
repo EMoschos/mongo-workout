@@ -1,57 +1,54 @@
-# Unit 17 Nosql Homework: Workout Tracker
+# Mongo-Fitt ![License](https://img.shields.io/static/v1?label=Licesne&message=MIT&color=green)
+  
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+  ## Description ✏️
+  
+  Mongo-Fitt is a workout tracker that allows the user to create workouts and add multiple exercises.  There are two types of exercises to choose "Resistance" and "Cardio" these come with pre-select fields that the user enters data.
+  
+  ## Table of Contents 📚
+  
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#Contributing)
+  * [Testing](#Testing)
+  * [Questions](#Questions)
+  
+  ## Installation 
 
-## User Story
+  ```
+  📥 There is no installation required the user can access the app at mongo-fitt.herokuapp.com.
+  ```
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+  ## Usage 
+  click [here@mongo-fitt](https://mongo-fitt.herokuapp.com/) app to gain access online.
 
-## Business Context
+  ```
+  ▶️ The user will be presented with the homepage which if no workouts have previously been added will only show the choice of "New Workout".  The user can then add exercises with two main types being "Resistance" and "Cardio".   Once the user makes the initial type selection they will be presented with varying fields to fill out.  Resistance allows users to add Name, weight, sets, reps and duration && Cardio allows users to add Name, Distance and duration.  Once these fields have been filled out correctly the user can either chose to "Complete" the workout which means the user will add the current exercise and be redirected to the home page || if they choose "Add Exercises" the user will be able to add another exercise to the workout.  Once workouts have been added a summary of the last workout will appear on the homepage and the user can also so see stats in graphical display by clicking the dashboard link.  Here stats are shown in bar and pie charts of the history of workouts that have been saved. 
+  ```
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
 
-## Acceptance Criteria
+  ## License 
+  
+  📜 License Code: MIT
 
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+  For detailed information on license [Click Here](https://opensource.org/licenses/MIT)
+  
+  ## Contributing
+  
+  👌 Not currently taking aby contributions
+  
+  ## Testing 
 
-The user should be able to:
+  ```
+  ✔️ No tests have been included in the development of this app
+  ```
 
-  * Add exercises to a previous workout plan.
+  ## Questions 
+  
+  Direct questions to me via email 📧 at [tmoschos@bigpond.com](tmoschos@bigpond.com).  Please use "Mongo-Fitt questions" in the subject and I will hopefully return a response within 48hrs.
 
-  * Add new exercises to a new workout plan.
-
-  * View the combined weight of multiple exercises on the `stats` page.
-
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
-
-  * [Set Up MongoDB Atlas](../04-Supplemental/MongoAtlas-Setup.md)
-
-  * [Deploy with Heroku and MongoDB Atlas](../04-Supplemental/MongoAtlas-Deploy.md)
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for the following two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-2. Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We want you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL to the deployed application
-
-* The URL to the GitHub repository
+  More information can be found at my [GitHub Profile](https://github.com/EMoschos).
+  
+---
+This README was created by the "Great-Read" 📝 Node.js app.  Developed by Eleftherios Moschos
