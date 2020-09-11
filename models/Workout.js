@@ -19,6 +19,7 @@ const workoutSchema = new Schema({
     }
 );
 
+//Created Virtual to add the totalDuration property without changing the database structure.  This will also allow further development in case an exercise was deleted.
 workoutSchema.virtual("totalDuration").get(function () {
     let totalDuration = 0;
 

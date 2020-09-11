@@ -3,7 +3,7 @@
 
   ## Description ✏️
   
-  Mongo-Fitt is a workout tracker that allows the user to create workouts and add multiple exercises.  There are two types of exercises to choose "Resistance" and "Cardio" these come with pre-select fields that the user enters data.   The app was created using MongoDB Atlas, Heroku and Mongoose along side Node.js.
+  Mongo-Fitt is a workout tracker that allows the user to create workouts and add multiple exercises.  There are two types of exercises to choose "Resistance" and "Cardio" these come with pre-select fields that the user enters data.   The app was created using MongoDB Atlas, Heroku and Mongoose along side Node.js.   A MVC structure was implemented to achieve the final result
   
   ## Table of Contents 📚
   
