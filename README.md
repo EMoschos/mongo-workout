@@ -17,7 +17,7 @@
   ## Installation 
 
   ```
-  📥 There is no installation required the user can access the app at mongo-fitt.herokuapp.com.  This application has been deployed on Heroku platform and utilizing MongoDB Atlas
+  📥 There is no installation required the user can access the app at mongo-fitt.herokuapp.com.  This application has been deployed on Heroku platform and utilizing MongoDB Atlas.  The Heroku app is automatically updated when code pushed to GitHub Repo.
   ```
 
   ## Usage 
@@ -36,7 +36,7 @@
   
   ## Contributing
   
-  👌 Not currently taking aby contributions
+  👌 Not currently taking aby contributions.  The Heroku app is automatically updated when code pushed to GitHub Repo.
   
   ## Testing 
 
